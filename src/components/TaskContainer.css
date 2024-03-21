@@ -1,0 +1,28 @@
+.taskContainer {
+  width: 90%;
+  height: 426px;
+  margin-top: 70px;
+  margin-left: 80px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 2px solid #a35709;
+}
+.line {
+  width: 64px;
+  border: 3px solid #a35709;
+}
+.noTaskWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 200px;
+}
+.taskTextStyle {
+  color: white;
+}
+.showTask {
+  display: flex;
+  flex-wrap: wrap;
+}
